@@ -1,0 +1,78 @@
+body {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: 55rem;
+    height: 20rem;
+    border-left: 3px solid black;
+    display: flex;
+}
+
+.left-box {
+    margin-top: 5%;
+    height: 14rem;
+    width: 700px;
+    border: 2px solid #2dd35c;
+    border-left: 0;
+    border-top-right-radius: 200px;
+    border-bottom-right-radius: 20px;
+    
+}
+
+.right-box {
+    position: absolute;
+    margin: 7% 0% 10% 29%;
+    height: 140px;
+    width: 28rem;
+    background-color: rgba(156, 129, 201, 0.35);
+    border-top-left-radius: 200px;
+    border-bottom-left-radius: 20px;
+    z-index: 1;
+    backdrop-filter: blur(5px);
+}
+
+/* left-box content */
+.box-content {
+    padding: 5% 12%;
+}
+
+h2 {
+    margin-top: 20px;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+h3 {
+    margin-top: 0;
+    font-size: 25px;
+    font-weight: 900;
+    color: #5553b7;
+}
+
+/* button */
+.btn {
+    height: 36px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px 16px;
+    font-size: 12px;
+}
+
+#lft-btn {
+    border: none;
+    background-color: #2dd35c;
+    color: #fff;
+    margin-right: 5px;
+}
+
+#rgt-btn {
+    border: 2px solid #353399;
+    background-color: #fff;
+    color: #353399;
+    font-weight: bold;
+}
