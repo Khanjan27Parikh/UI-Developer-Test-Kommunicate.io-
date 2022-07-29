@@ -1,3 +1,6 @@
 function getUrlParameterValue(url, parameter) {
-  //Todo: complete this code
+  return new
+    URL(url).searchParams.get(parameter);
 }
+
+console.log(getUrlParameterValue("https://www.kommunicate.io/poweredby?utm_source=https://www.kommunicate.io/&utm_medium=webplugin&utm_campaign=poweredby", "utm_medium"))
